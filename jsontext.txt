@@ -1,0 +1,11 @@
+{
+     "name": {
+          "first": "Rajyalaxmi",
+          "last": "Viswanadha"
+     },
+     "job": [
+          "SSM",
+          "SSA"
+     ],
+     "age": 27
+}
