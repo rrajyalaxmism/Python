@@ -57,3 +57,6 @@ L[1:] = []
 print(L)#['Already']
 L[0] = []
 print(L)#[[]]
+
+L= ["Spam","spam","SPAM"]
+L.insert(1,L) # ['Spam', [...], 'spam', 'SPAM', 4, 5, 6, 7] recursive structure or a circular reference within the list.
