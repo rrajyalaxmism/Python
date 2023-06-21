@@ -32,7 +32,7 @@ tx[1][0]=5 # tx[0]=5 is not possible
 ############ Named tuples
 from collections import namedtuple
 
-rec= namedtuple('re',['name', 'age', 'jobs'])
+rec= namedtuple('rec',['name', 'age', 'jobs'])
 b= rec('SR',age=40, jobs=['SM','SSM'])
 print(b)
 print(b.name)
