@@ -60,3 +60,19 @@ print(L)#[[]]
 
 L= ["Spam","spam","SPAM"]
 L.insert(1,L) # ['Spam', [...], 'spam', 'SPAM', 4, 5, 6, 7] recursive structure or a circular reference within the list.
+
+#-----------------
+L=["Spam",90]
+L.insert(1,L)
+print(L)
+print(L.index([...])) # throws an  ValueError: [Ellipsis] is not in list
+#-------------
+
+L=["Spam","90"]
+k=L.copy()
+print(k)
+k.append(20)
+print(L)
+print(k)
+k.clear()
+print(k)
